@@ -7,6 +7,7 @@
 <meta charset="utf-8">
 <script>
   version = "Test Edition #1" //Remember to update this before making changes to the test itself!
+
 </script>
 </head>
 <script type="application/javascript"
@@ -16,125 +17,122 @@
 <body>
 <img src="logo.svg" class="logo"></img>
 <hr style="height: 10px; background: #00647f; border: 0px;">
+<canvas id="banner" width=1720 height=1500 style="font-family:Montserrat"></canvas>
+<button class="button" onclick="location.href='share.html';" style="background-color: #2196f3;">UDOSTĘPNIJ! [WORK IN PROGRESS]</button> <br>
+<form target="_blank" action="values.html"><button class="button" style="background-color: #009e0d;">OPIS IDEOLOGII [IN PROGRESS]</button></form>
+<h2>Dzięki za wykonanie testu ;> Poniżej są konkretne ideolgoie przypisane twoim poglądom, nie zwracaj na to uwagi, w przyszłości będzie to wyglądało znacznie lepiej. Całokształtowo najbliższa ideologia to... <span class="weight-0" id="ideology-label"></span></h2>
 
-<h1>WYNIKI</h1>
 
-<h2>EKONOMIA: </h2>
 
-<h2><span class="weight-300" id="economic1-label"></span></h2>
-<div class="axis">
-    <img id="img-socjalizm" src="value_images/socjalizm.svg" height="128pt"/>
+
+
+<h2><span class="weight-0" id="economic1-label"></span></h2>
+<div class="axis" >
+    <img id="img-socjalizm" src="value_images/Socjalizm.svg" height="0pt"/>
     <div class="bar socjalizm" id="bar-socjalizm"><div class="text-wrapper" id="socjalizm"></div></div>
     <div class="bar kapitalizm" id="bar-kapitalizm"><div class="text-wrapper" id="kapitalizm"></div></div>
-    <img id="img-kapitalizm" src="value_images/kapitalizm.svg" height="128pt"/>
+    <img id="img-kapitalizm" src="value_images/Kapitalizm.svg" height="0"/>
 </div>
 
-<h2><span class="weight-300" id="economic2-label"></span></h2>
+<h2><span class="weight-0" id="economic2-label"></span></h2>
 <div class="axis">
-    <img id="img-regulacjonizm" src="value_images/regulacjonizm.svg" height="128pt"/>
+    <img id="img-regulacjonizm" src="value_images/Regulacjonizm.svg" height="0pt"/>
     <div class="bar regulacjonizm" id="bar-regulacjonizm"><div class="text-wrapper" id="regulacjonizm"></div></div>
     <div class="bar leseferyzm" id="bar-leseferyzm"><div class="text-wrapper" id="leseferyzm"></div></div>
-    <img id="img-leseferyzm" src="value_images/leseferyzm.svg" height="128pt"/>
+    <img id="img-leseferyzm" src="value_images/Leseferyzm.svg" height="0pt"/>
 </div>
 
-<h2><span class="weight-300" id="economic3-label"></span></h2>
+<h2><span class="weight-0" id="economic3-label"></span></h2>
 <div class="axis">
-    <img id="img-protekcjonizm" src="value_images/protekcjonizm.svg" height="128pt"/>
+    <img id="img-protekcjonizm" src="value_images/Protekcjonizm.svg" height="0pt"/>
     <div class="bar protekcjonizm" id="bar-protekcjonizm"><div class="text-wrapper" id="protekcjonizm"></div></div>
     <div class="bar globalizm" id="bar-globalizm"><div class="text-wrapper" id="globalizm"></div></div>
-    <img id="img-globalizm" src="value_images/globalizm.svg" height="128pt"/>
+    <img id="img-globalizm" src="value_images/Globalizm.svg" height="0pt"/>
 </div>
 
-<h2>PRAWO: <h2>
-
-<h2><span class="weight-300" id="law1-label"></span></h2>
+<h2><span class="weight-0" id="law1-label"></span></h2>
 <div class="axis">
-    <img id="img-liberalizm" src="value_images/liberalizm.svg" height="128pt"/>
+    <img id="img-liberalizm" src="value_images/Liberalizm.svg" height="0pt"/>
     <div class="bar liberalizm" id="bar-liberalizm"><div class="text-wrapper" id="liberalizm"></div></div>
     <div class="bar autorytaryzm" id="bar-autorytaryzm"><div class="text-wrapper" id="autorytaryzm"></div></div>
-    <img id="img-autorytaryzm" src="value_images/autorytaryzm.svg" height="128pt"/>
+    <img id="img-autorytaryzm" src="value_images/Autorytaryzm.svg" height="0pt"/>
 </div>
 
-<h2><span class="weight-300" id="law2-label"></span></h2>
+<h2><span class="weight-0" id="law2-label"></span></h2>
 <div class="axis">
-    <img id="img-demokracja" src="value_images/demokracja.svg" height="128pt"/>
+    <img id="img-demokracja" src="value_images/Demokracja.svg" height="0pt"/>
     <div class="bar demokracja" id="bar-demokracja"><div class="text-wrapper" id="demokracja"></div></div>
     <div class="bar autorytet" id="bar-autorytet"><div class="text-wrapper" id="autorytet"></div></div>
-    <img id="img-autorytet" src="value_images/autorytet.svg" height="128pt"/>
+    <img id="img-autorytet" src="value_images/Autorytet.svg" height="0pt"/>
 </div>
-<h2><span class="weight-300" id="law3-label"></span></h2>
+<h2><span class="weight-0" id="law3-label"></span></h2>
 <div class="axis">
-    <img id="img-indywidualizm" src="value_images/indywidualizm.svg" height="128pt"/>
+    <img id="img-indywidualizm" src="value_images/Indywidualizm.svg" height="0pt"/>
     <div class="bar indywidualizm" id="bar-indywidualizm"><div class="text-wrapper" id="indywidualizm"></div></div>
     <div class="bar kolektywizm" id="bar-kolektywizm"><div class="text-wrapper" id="kolektywizm"></div></div>
-    <img id="img-kolektywizm" src="value_images/kolektywizm.svg" height="128pt"/>
+    <img id="img-kolektywizm" src="value_images/Kolektywizm.svg" height="0pt"/>
 </div>
-<h2><span class="weight-300" id="law4-label"></span></h2>
+<h2><span class="weight-0" id="law4-label"></span></h2>
 <div class="axis">
-    <img id="img-pacyfizm" src="value_images/pacyfizm.svg" height="128pt"/>
+    <img id="img-pacyfizm" src="value_images/Pacyfizm.svg" height="0pt"/>
     <div class="bar pacyfizm" id="bar-pacyfizm"><div class="text-wrapper" id="pacyfizm"></div></div>
     <div class="bar militaryzm" id="bar-militaryzm"><div class="text-wrapper" id="militaryzm"></div></div>
-    <img id="img-militaryzm" src="value_images/militaryzm.svg" height="128pt"/>
+    <img id="img-militaryzm" src="value_images/Militaryzm.svg" height="0pt"/>
 </div>
-<h2>SPOŁECZEŃSTWO: </h2>
-<h2><span class="weight-300" id="society1-label"></span></h2>
+<h2><span class="weight-0" id="society1-label"></span></h2>
 <div class="axis">
-    <img id="img-internacjonalizm" src="value_images/internacjonalizm.svg" height="128pt"/>
+    <img id="img-internacjonalizm" src="value_images/Internacjonalizm.svg" height="0pt"/>
     <div class="bar internacjonalizm" id="bar-internacjonalizm"><div class="text-wrapper" id="internacjonalizm"></div></div>
     <div class="bar nacjonalizm" id="bar-nacjonalizm"><div class="text-wrapper" id="nacjonalizm"></div></div>
-    <img id="img-nacjonalizm" src="value_images/nacjonalizm.svg" height="128pt"/>
+    <img id="img-nacjonalizm" src="value_images/Nacjonalizm.svg" height="0pt"/>
 </div>
-<h2><span class="weight-300" id="society2-label"></span></h2>
+<h2><span class="weight-0" id="society2-label"></span></h2>
 <div class="axis">
-    <img id="img-progresywizm" src="value_images/progresywizm.svg" height="128pt"/>
+    <img id="img-progresywizm" src="value_images/Progresywizm.svg" height="0pt"/>
     <div class="bar progresywizm" id="bar-progresywizm"><div class="text-wrapper" id="progresywizm"></div></div>
     <div class="bar konserwatyzm" id="bar-konserwatyzm"><div class="text-wrapper" id="konserwatyzm"></div></div>
-    <img id="img-konserwatyzm" src="value_images/konserwatyzm.svg" height="128pt"/>
+    <img id="img-konserwatyzm" src="value_images/Konserwatyzm.svg" height="0pt"/>
 </div>
-<h2><span class="weight-300" id="society3-label"></span></h2>
+<h2><span class="weight-0" id="society3-label"></span></h2>
 <div class="axis">
-    <img id="img-sekularyzm" src="value_images/sekularyzm.svg" height="128pt"/>
+    <img id="img-sekularyzm" src="value_images/Sekularyzm.svg" height="0pt"/>
     <div class="bar sekularyzm" id="bar-sekularyzm"><div class="text-wrapper" id="sekularyzm"></div></div>
     <div class="bar teokracja" id="bar-teokracja"><div class="text-wrapper" id="teokracja"></div></div>
-    <img id="img-teokracja" src="value_images/teokracja.svg" height="128pt"/>
+    <img id="img-teokracja" src="value_images/Teokracja.svg" height="0pt"/>
 </div>
-<h2><span class="weight-300" id="society4-label"></span></h2>
+<h2><span class="weight-0" id="society4-label"></span></h2>
 <div class="axis">
-    <img id="img-ekologizm" src="value_images/ekologizm.svg" height="128pt"/>
+    <img id="img-ekologizm" src="value_images/Ekologizm.svg" height="0pt"/>
     <div class="bar ekologizm" id="bar-ekologizm"><div class="text-wrapper" id="ekologizm"></div></div>
     <div class="bar produktywizm" id="bar-produktywizm"><div class="text-wrapper" id="produktywizm"></div></div>
-    <img id="img-produktywizm" src="value_images/produktywizm.svg" height="128pt"/>
+    <img id="img-produktywizm" src="value_images/Produktywizm.svg" height="0pt"/>
 </div>
-
-<h2>PAŃSTWO: </h2>
-<h2><span class="weight-300" id="state1-label"></span></h2>
+<h2><span class="weight-0" id="state1-label"></span></h2>
 
 <div class="axis">
-    <img id="img-rewolucjonizm" src="value_images/rewolucjonizm.svg" height="128pt"/>
+    <img id="img-rewolucjonizm" src="value_images/Rewolucjonizm.svg" height="0pt"/>
     <div class="bar rewolucjonizm" id="bar-rewolucjonizm"><div class="text-wrapper" id="rewolucjonizm"></div></div>
     <div class="bar reformizm" id="bar-reformizm"><div class="text-wrapper" id="reformizm"></div></div>
-    <img id="img-reformizm" src="value_images/reformizm.svg" height="128pt"/>
+    <img id="img-reformizm" src="value_images/Reformizm.svg" height="0pt"/>
 </div>
-<h2><span class="weight-300" id="state2-label"></span></h2>
+<h2><span class="weight-0" id="state2-label"></span></h2>
 <div class="axis">
-    <img id="img-rehabilitacja" src="value_images/rehabilitacja.svg" height="128pt"/>
+    <img id="img-rehabilitacja" src="value_images/Rehabilitacja.svg" height="0pt"/>
     <div class="bar rehabilitacja" id="bar-rehabilitacja"><div class="text-wrapper" id="rehabilitacja"></div></div>
     <div class="bar kara" id="bar-kara"><div class="text-wrapper" id="kara"></div></div>
-    <img id="img-kara" src="value_images/kara.svg" height="128pt"/>
+    <img id="img-kara" src="value_images/Kara.svg" height="0pt"/>
 </div>
-<h2><span class="weight-300" id="state3-label"></span></h2>
+<h2><span class="weight-0" id="state3-label"></span></h2>
 <div class="axis">
-    <img id="img-federalizm" src="value_images/federalizm.svg" height="128pt"/>
+    <img id="img-federalizm" src="value_images/Federalizm.svg" height="0pt"/>
     <div class="bar federalizm" id="bar-federalizm"><div class="text-wrapper" id="federalizm"></div></div>
     <div class="bar unitaryzm" id="bar-unitaryzm"><div class="text-wrapper" id="unitaryzm"></div></div>
-    <img id="img-unitaryzm" src="value_images/unitaryzm.svg" height="128pt"/>
+    <img id="img-unitaryzm" src="value_images/Unitaryzm.svg" height="0pt"/>
 </div>
-<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>W przyszłości.</p>
-<p>mknkn</p>
-<hr/>
-<canvas id="banner" width=2100 height=1500 style="font-family:Montserrat"></canvas>
-<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Wstecz</button> <br>
+
+
+ <a href='http://www.counterliczniki.com'>counterliczniki.com</a> <script type='text/javascript' src='https://www.counterliczniki.com/auth.php?id=12ba135cc3a1a8096feafd6a355e289e80bfce87'></script>
+<script type="text/javascript" src="https://www.counterliczniki.com/pl/home/counter/763699/t/2"></script>
 <script>
     function getQueryVariable(variable)
     {
@@ -286,7 +284,7 @@
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,1700,1500)
+        ctx.fillRect(0,0,1720,1500)
 
         img = document.getElementById("img-socjalizm")
         ctx.drawImage(img, 20, 170, 100, 100);
@@ -421,8 +419,7 @@
         ctx.fillStyle="#222222"
         ctx.font="700 35px Rubik"
         ctx.textAlign="left"
-        ctx.fillText("POLITICAL IDEAS", 20, 50)
-        ctx.fillText("[Miejsce na kompas, najbliższą partie, ideologię, wybitnego myśliciela i coś jeszcze]", 150, 1300)
+        ctx.fillText("[Miejsce na kompas, najbliższą partie, ideologię, wybitnego myśliciela i coś jeszcze, work in progress!]", 50, 1300)
         ctx.font="50px Rubik"
         ctx.fillText(ideology, 520, 50)
 
@@ -470,6 +467,8 @@
         ctx.fillText("PAŃSTWO ",  1280, 745)
 
         document.getElementById("banner").src = c.toDataURL();
+		console.log(dataURL);
+		
     }
     </script>
 </body>

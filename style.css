@@ -2,18 +2,44 @@ html {
     background-color: #ffffff;
     padding: 0px;
 }
+body {
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+}
 
+p.value-description {
+    text-indent: -16pt;
+    font-size: 22pt;
+    margin-left: 20pt;
+
+}
+.dol {
+    text-indent: -16pt;
+    width: 100%;
+    background-color: #dddddd;
+  position: relative;
+      height: 8%;
+}
+.container {
+  position: relative;
+}
 p {
     color: #444444;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16pt;
     line-height: 1;
     margin: 4pt;
 }
 p.podpis {
+
     font-family: 'Rubik', sans-serif;
     text-indent: -16pt;
     color: #00647f;
+    min-height: 144pt;
     margin-left: 20pt;
 	text-align: center;
 }
@@ -52,6 +78,14 @@ h2 {
     margin-top: 12pt;
     margin-bottom: 0pt;
 }
+h3 {
+    color: #333333;
+    font-family: 'Rubik', sans-serif;
+    font-size: 42pt;
+    line-height: 42pt;
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+}
 li {
     font-size: 16pt;
     text-indent: 16pt;
@@ -74,10 +108,19 @@ img.logo {
 }
 img.main {
     display: block;
-    width: 100.402%;
+    width: 100%;
     min-width: 500pt;
     text-align: center;
+
 }
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
 .button {
     background-color: #00647f;
     font-family: 'Rubik', sans-serif;
@@ -93,6 +136,26 @@ img.main {
     font-size: 24pt;
     margin: -2px auto;
     cursor: pointer;
+}
+.buttoncenter {
+    background-color: #00647f;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 50%;
+    min-width: 500pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: -2px auto;
+    cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .small_button, .small_button_off {
     background-color: #00495b;
@@ -124,13 +187,13 @@ div.axis {
     justify-content: center;
 }
 div.bar {
-    height: 36pt;
-    line-height: 36pt;
-    padding: 8pt;
-    margin-top: 4pt;
-    margin-bottom: 4pt;
-    border-width: 4px;
-    border-right-width: 1px;
+    height: 0pt;
+    line-height: 0pt;
+    padding: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    border-width: 0px;
+    border-right-width: 0px;
     border-top-style: solid;
     border-bottom-style: solid;
     border-color: #222222;
@@ -138,161 +201,14 @@ div.bar {
     display: block;
     width: 50%;
 }
-div.text-wrapper {
-    font-family: 'Rubik', sans-serif;
-    font-size: 36pt;
-    line-height: 36pt;
-    color: #222222;
-    display: inline-block;
-}
-div.socjalizm {
-    background-color: #ff3232;
-    text-align: left;
-    border-right-style: solid;
-}
-div.regulacjonizm {
-    background-color: #ff3232;
-    text-align: left;
-    border-right-style: solid;
-}
-div.protekcjonizm {
-    background-color: #ff3232;
-    text-align: left;
-    border-right-style: solid;
-}
-div.kapitalizm {
-    background-color: #00847f;
-    text-align: right;
-    border-left-style: solid;
-}
-div.leseferyzm {
-    background-color: #00847f;
-    text-align: right;
-    border-left-style: solid;
-}
-div.globalizm {
-    background-color: #00847f;
-    text-align: right;
-    border-left-style: solid;
-}
-div.liberalizm {
-    background-color: #9e8300;
-    text-align: left;
-    border-left-style: solid;
-}
-div.demokracja {
-    background-color: #9e8300;
-    text-align: left;
-    border-left-style: solid;
-}
-div.indywidualizm {
-    background-color: #9e8300;
-    text-align: left;
-    border-left-style: solid;
-}
-div.pacyfizm {
-    background-color: #9e8300;
-    text-align: left;
-    border-left-style: solid;
-}
-div.autorytaryzm {
-    background-color: #006bb7;
-    text-align: right;
-    border-left-style: solid;
-}
-div.autorytet {
-    background-color: #006bb7;
-    text-align: right;
-    border-left-style: solid;
-}
-div.kolektywizm {
-    background-color: #006bb7;
-    text-align: right;
-    border-left-style: solid;
-}
-div.militaryzm {
-    background-color: #006bb7;
-    text-align: right;
-    border-left-style: solid;
-}
-div.internacjonalizm {
-    background-color: #73a000;
-    text-align: left;
-    border-left-style: solid;
-}
-div.progresywizm {
-    background-color: #73a000;
-    text-align: left;
-    border-left-style: solid;
-}
-div.sekularyzm {
-    background-color: #73a000;
-    text-align: left;
-    border-left-style: solid;
-}
-div.ekologizm {
-    background-color: #73a000;
-    text-align: left;
-    border-left-style: solid;
-}
-div.nacjonalizm {
-    background-color: #e69D22;
-    text-align: right;
-    border-left-style: solid;
-}
-div.konserwatyzm {
-    background-color: #e69D22;
-    text-align: right;
-    border-left-style: solid;
-}
-div.teokracja {
-    background-color: #e69D22;
-    text-align: right;
-    border-left-style: solid;
-}
-div.produktywizm {
-    background-color: #e69D22;
-    text-align: right;
-    border-left-style: solid;
-}
-div.rewolucjonizm {
-    background-color: #b77994;
-    text-align: left;
-    border-left-style: solid;
-}
-div.rehabilitacja {
-    background-color: #b77994;
-    text-align: left;
-    border-left-style: solid;
-}
-div.federalizm {
-    background-color: #b77994;
-    text-align: left;
-    border-left-style: solid;
-}
-div.reformizm {
-    background-color: #C10000;
-    text-align: right;
-    border-left-style: solid;
-}
-div.kara {
-    background-color: #C10000;
-    text-align: right;
-    border-left-style: solid;
-}
-div.unitaryzm {
-    background-color: #C10000;
-    text-align: right;
-    border-left-style: solid;
-}
 span.weight-300 {
     font-weight: 300;
 }
-banner {
+#banner {
     border-color: #444444;
     border-style: solid;
-    border-width: 2px;
-    border-radius: 8pt;
+	width:  91.2%;
+    min-width: 700pt;
     display: block;
     margin: 8pt;
     margin-left: auto;

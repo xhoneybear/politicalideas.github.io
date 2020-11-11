@@ -2755,7 +2755,7 @@ questions = [
         }
     },
 	    {
-	        "question": "Powinny istnieć surowe prawa związane z ekologią i emisją CO2 i gazów cieplarnianych",
+	        "question": "Powinny istnieć surowe prawa związane z ekologią oraz emisją CO2 i gazów cieplarnianych",
         "effect": {
             "econ1": 0,
             "econ2": 10,
@@ -2793,7 +2793,7 @@ questions = [
         }
     },
 	    {
-	        "question": "Zwierzęta powinny mieć takie same prawa, co ludzie.",
+	        "question": "Zwierzęta powinny mieć takie same prawa jak ludzie.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
@@ -3116,7 +3116,7 @@ questions = [
         }
     },
 	    {
-	        "question": "Władze lokalne zajmują się problemami, którymi rząd ogólnokrajowy bez ich pomocy nigdy by się nie zainteresował.",
+	        "question": "Władze lokalne często zajmują się problemami, którymi rząd ogólnokrajowy bez ich pomocy nigdy by się nie zainteresował.",
         "effect": {
             "econ1": 0,
             "econ2": 0,
